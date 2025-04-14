@@ -3,6 +3,7 @@
 
 [![Flutter](https://img.shields.io/badge/Flutter-3.13.9-blue.svg)](https://flutter.dev)
 [![API](https://img.shields.io/badge/API-disease.sh-brightgreen.svg)](https://disease.sh/v3/covid-19/)
+[![Video Demo](https://img.shields.io/badge/API-disease.sh-brightgreen.svg)](https://disease.sh/v3/covid-19/)
 
 ## 📌 Overview  
 A Flutter app that fetches **real-time COVID-19 data** from a public REST API. Features:
@@ -11,6 +12,9 @@ A Flutter app that fetches **real-time COVID-19 data** from a public REST API. F
 - 🗺️ Country-wise data with interactive list
 - 📊 Visual charts for trend analysis
 - ⚡ Real-time updates
+
+## 📽 Demo
+[Demo Video (Google Drive)](https://drive.google.com/file/d/1hmypOrC-nDV4OroK5iExhTN6K2XUBlvO/view?usp=drive_link)
 
 ## 🛠️ Tech Stack  
 - **Framework**: Flutter
