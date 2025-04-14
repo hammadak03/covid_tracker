@@ -1,16 +1,58 @@
-# covid_tracker
+# 🌍 Covid Tracker - Flutter App  
+**Real-time global & country-specific COVID-19 statistics**  
 
-A new Flutter project.
+[![Flutter](https://img.shields.io/badge/Flutter-3.13.9-blue.svg)](https://flutter.dev)
+[![API](https://img.shields.io/badge/API-disease.sh-brightgreen.svg)](https://disease.sh/v3/covid-19/)
 
-## Getting Started
+## 📌 Overview  
+A Flutter app that fetches **real-time COVID-19 data** from a public REST API. Features:
 
-This project is a starting point for a Flutter application.
+- 🌐 Global stats dashboard (cases, deaths, recoveries)
+- 🗺️ Country-wise data with interactive list
+- 📊 Visual charts for trend analysis
+- ⚡ Real-time updates
 
-A few resources to get you started if this is your first Flutter project:
+## 🛠️ Tech Stack  
+- **Framework**: Flutter
+- **API**: [disease.sh/v3/covid-19](https://disease.sh/v3/covid-19)
+- **HTTP Client**: `http` package
+- **Charts**: `pie_chart`
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+## ✨ Features  
+✅ Real-time global COVID-19 statistics  
+✅ Country-specific data breakdown  
+✅ Pie Charts
+✅ Searchable country list  
+✅ Pull-to-refresh functionality  
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## 📸 Screenshots  
+| Global Stats | Country List | Country Details |
+|-------------|-------------|----------------|
+| <img src="screenshots/global.png" width="300"> | <img src="screenshots/countries.png" width="300"> | <img src="screenshots/details.png" width="300"> |
+
+## 🚀 Installation  
+1. Clone the repository:
+    ```bash
+    git clone https://github.com/yourusername/covid-tracker.git
+    cd covid-tracker
+2. Install Dependencies:
+   ```bash
+    flutter pub get
+4. Run the app:
+   ```bash
+    flutter run
+
+## 🧩 API Endpoints Used
+    ```md
+      ```dart
+        // Global data
+        final globalData = await http.get(Uri.parse('https://disease.sh/v3/covid-19/all'));
+        
+        // Country list
+        final countries = await http.get(Uri.parse('https://disease.sh/v3/covid-19/countries'));
+        
+        // Country-specific data
+        final countryData = await http.get(Uri.parse('https://disease.sh/v3/covid-19/countries/$countryCode'));
+
+  
+
