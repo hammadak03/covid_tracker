@@ -28,7 +28,7 @@ A Flutter app that fetches **real-time COVID-19 data** from a public REST API. F
 ## 📸 Screenshots  
 | Global Stats | Country List | Country Details |
 |-------------|-------------|----------------|
-| <img src="screenshots/global.png" width="300"> | <img src="screenshots/countries.png" width="300"> | <img src="screenshots/details.png" width="300"> |
+| <img src="images/global_stats.png" width="300"> | <img src="images/country_list.png" width="300"> | <img src="images/country_detail.png" width="300"> |
 
 ## 🚀 Installation  
 1. Clone the repository:
